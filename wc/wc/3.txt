@@ -1,0 +1,40 @@
+//回答正确打印信息
+void correctPrint(int num)
+{
+	switch (num)
+
+	{
+	case 1:
+		printf("You're right!\n"); break;
+	case 2:
+		printf("It's OK!\n"); break;
+	case 3:
+		printf("Correct!\n"); break;
+	case 4:
+		printf("Perfect!\n"); break;
+	case 5:
+		printf("Oh my gag!\n"); break;
+	default:
+		printf("Powerful!\n"); break;
+	}
+
+}
+
+//回答错误打印信息
+
+void falsePrint(int num)
+{
+	switch (num)
+	{
+	case 1:
+		printf("You're lost!"); break;
+	case 2:
+		printf("Failure!"); break;
+	case 3:
+		printf("Come on!"); break;
+	case 4:
+		printf("It's wrong!"); break;
+	default:
+		printf("Incorrect!"); break;
+	}
+}

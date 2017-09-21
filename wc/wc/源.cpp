@@ -46,30 +46,12 @@ void main()
 				}
 			}
 
-
 		}
-		/*{
-			int len = 0, i = 0;
-			int signline = 0;
-			fgets(ch, sizeof(ch), fp);
-			len = strlen(ch);
-			for (i = 0; i < len; i++)
-			{
-				if ((ch[i] == '/'&&ch[i + 1] == '/') || (ch[i] == '/'&&ch[i + 1] == '*'))
-				{
-					signline++;
-					break;
-				}
-			}
-			}
-
-
-		}*/
+	}
 		printf("一共有:%d行 %d个单词 %d个字符", l, w, c);
 		signalcount(fileName);
 		fclose(fp);
 		system("pause");
-	}
 }
 
 void signalcount(char *filename)
